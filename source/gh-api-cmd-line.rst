@@ -104,7 +104,7 @@ And replace ``print("Hello world.")`` with::
             session,
             "mariatta",
             oauth_token=os.getenv("GH_AUTH")
-    )
+        )
 
 
 Instead of "mariatta" however, use your own GitHub username.
